@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Treasure : MonoBehaviour
 {
-    Rigidbody rb;
+    private Rigidbody rb;
     private void Start() {
         rb = gameObject.GetComponent<Rigidbody>();
     }
